@@ -4,11 +4,10 @@ This CBIS-DDSM (Curated Breast Imaging Subset of DDSM) is an updated and standar
 ## Key information :
 Number of Studies: 6775 <br />
 Number of Series: 6775 <br />
-Number of Participants: 1,566(NB) 
-Number of Images: 10239 
-Modalities: MG 
-Image Size (GB): 6(.jpg)
-
+Number of Participants: 1,566(NB) <br />
+Number of Images: 10239 <br />
+Modalities: MG <br />
+Image Size (GB): 6(.jpg)<br />
 
 # Breast Histopathology Images
 The original dataset consisted of 162 whole mount slide images of Breast Cancer (BCa) specimens scanned at 40x. From that, 277,524 patches of size 50 x 50 were extracted (198,738 IDC negative and 78,786 IDC positive). Each patch’s file name is of the format: u_xX_yY_classC.png — > example 10253_idx5_x1351_y1101_class0.png . Where u is the patient ID (10253_idx5), X is the x-coordinate of where this patch was cropped from, Y is the y-coordinate of where this patch was cropped from, and C indicates the class where 0 is non-IDC and 1 is IDC.
